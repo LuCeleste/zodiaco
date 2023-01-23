@@ -1,0 +1,141 @@
+body{
+    background-image: url("../media/fondo.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: "titulo form"
+                        "carta form";
+                        ;
+
+}
+h1{
+    font-family: $fonttitulo;
+    font-weight: 400;
+    font-size: 3rem;
+    grid-area: titulo;
+    color: rgb(224, 165, 157);
+    align-self: center;
+    justify-self: center;
+    text-shadow: 4px 4px 0px #c76676;
+
+}
+#carta{
+    width: 300px;
+    height: 300px;
+    grid-area: carta;
+    background-color:rgb(224, 165, 157);
+    display: flex;
+    box-shadow: 7px 7px 0px 2px #c76676;
+    justify-self: center;   
+    align-items: center;
+    p{  padding: 20px;
+        color: white;
+        font-size: 2rem
+    }
+    img{
+        width: 200px;
+        object-fit: contain;
+
+    }
+}
+form{
+    background-color: #faf1e9;
+    grid-area: form;
+    margin: 50px;
+    box-shadow: 10px 10px 0px 1px #b3a098bf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    max-width: 40vw;
+    h2{
+        font-family: $fonttitulo;
+        font-weight: 400;
+        font-size: 3rem;
+        color: #ebdccf;
+        text-shadow: 4px 4px 0px #b3a098bf;    }
+    label{
+        font-size: 2rem;
+        padding: 20px;
+    }
+    padding: 20px;
+}
+input{
+    width: 200px;
+    text-align: center;
+    height: 40px;
+    font-size: 2rem;
+    background-color: #ebdccfd0;
+    border: 0;
+    border-bottom: solid 4px;
+    border-color: #b3a098bf;
+    margin: 5px;
+    &:focus-visible{
+        outline: 0;
+    }
+}
+#btn, .volver{
+    width: 200px;
+    height: 70px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 5px 5px 0px 1px #b3a098bf;
+    font-size: 2rem;
+    transition-duration: .5s;
+    &:hover{
+        box-shadow: -5px -5px 0px 1px rgb(179 160 152 / 75%)
+    }
+
+}
+.caracteristicas{
+    font-size: 1.8rem;
+    p{
+        position: relative;
+        width: fit-content;
+    margin: 70px;
+    &::before, &::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    &::before{
+        background-color: #faf1e9;
+        animation: typewriter 6s
+        steps(14) 1s forwards;
+    }
+    &::after{
+        width: 0.125em;
+        background: black;
+        animation: typewriter 6s
+            steps(14) 1s forwards,
+          blink 750ms steps(24) infinite;
+    }
+}
+}
+
+  @keyframes typewriter {
+    to {
+      left: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    to {
+      background: transparent;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
