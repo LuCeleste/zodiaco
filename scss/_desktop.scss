@@ -28,21 +28,20 @@ h1{
     width: 300px;
     height: 300px;
     grid-area: carta;
-    background-color:rgb(224, 165, 157);
+    background-color:#e0a59d;
     display: flex;
     box-shadow: 7px 7px 0px 2px #c76676;
     justify-self: center;   
-    align-items: center;
-    p{  padding: 20px;
-        color: white;
-        font-size: 2rem
-    }
+    flex-direction: column;
     img{
         width: 200px;
         object-fit: contain;
+        margin: auto;
 
     }
 }
+
+
 form{
     background-color: #faf1e9;
     grid-area: form;
@@ -93,11 +92,11 @@ input{
 
 }
 .caracteristicas{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     p{
         position: relative;
         width: fit-content;
-    margin: 70px;
+    margin: 40px;
     &::before, &::after{
         content: "";
         position: absolute;
@@ -109,33 +108,117 @@ input{
     &::before{
         background-color: #faf1e9;
         animation: typewriter 6s
-        steps(14) 1s forwards;
+        steps(14) 1.1s forwards;
+        animation-delay: 3s;
     }
     &::after{
-        width: 0.125em;
-        background: black;
+        width: 0.10em;
+        background: #b3a098bf;
         animation: typewriter 6s
-            steps(14) 1s forwards,
-          blink 750ms steps(24) infinite;
+            steps(24) 1s forwards,
+          blink 10s steps(1) forwards;
+          animation-delay: 3s;
     }
 }
 }
 
-  @keyframes typewriter {
-    to {
-      left: 100%;
-    }
-  }
-  
-  @keyframes blink {
-    to {
-      background: transparent;
-    }
-  }
-  
-  @keyframes fadeInUp {
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
+
+.uno{  padding: 10px;
+    color: white;
+    font-size: 1.5rem;
+    text-align:left;
+    position: relative;
+    width: fit-content;
+&::before, &::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+&::before{
+    background-color: #e0a59d;
+    animation: typewriter 4s
+    steps(12) 1.1s forwards;
+
+}
+&::after{
+    width: 0.125em;
+    background: rgb(255, 255, 255);
+    animation: typewriter 4s
+        steps(21) 1s forwards,
+        // animation-timing-function:step-end;
+      blink 6s steps(1) forwards;
+}
+}
+
+
+
+.dos{  padding: 10px;
+    color: white;
+    font-size: 1.5rem;
+    text-align:left;
+    position: relative;
+    width: fit-content;
+&::before, &::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+&::before{
+    background-color: #e0a59d;
+    animation: typewriter 4s
+    steps(12) 1.1s forwards;
+    animation-delay: 6s;
+
+}
+&::after{
+    width: 0.125em;
+    background: rgb(255, 255, 255);
+    animation: typewriter 4s
+        steps(21) 1s forwards,
+        // animation-timing-function:step-end;
+      blink 6s steps(1) forwards;
+      animation-delay: 6s;
+}
+}
+
+
+
+
+.tres{  padding: 10px;
+    color: white;
+    font-size: 1.5rem;
+    text-align:left;
+    position: relative;
+    width: fit-content;
+&::before, &::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+&::before{
+    background-color: #e0a59d;
+    animation: typewriter 4s
+    steps(12) 1.1s forwards;
+    animation-delay: 12s;
+
+}
+&::after{
+    width: 0.125em;
+    background: rgb(255, 255, 255);
+    animation: typewriter 4s
+        steps(21) 1s forwards,
+        // animation-timing-function:step-end;
+      blink 6s steps(1) forwards;
+      animation-delay: 12s;
+}
+}
+

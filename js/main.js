@@ -17,8 +17,15 @@ if((dia>=21 && mes==3) || (dia<=20 && mes==4)){
     <p> Simbolo: Carnero</p>
     <p>Planeta: Marte</p>
     <p>Pasionales - Valientes - Optimistas</p> 
+    
 </div>
       <button class="volver" onclick = "location.reload()">Cambiar fecha</button>
+      <audio controls autoplay>
+
+  <source src="./media/sonido.mp3" type="audio/mpeg">
+
+</audio>
+
       `
 }
 if((dia>=24 && mes==9) || (dia<=23 && mes==10)){
@@ -34,6 +41,11 @@ if((dia>=24 && mes==9) || (dia<=23 && mes==10)){
     <p>Balanceados - Encantadores - Optimistas</p> 
 </div>
       <button class="volver" onclick = "location.reload()">Cambiar fecha</button>
+      <audio controls autoplay>
+
+      <source src="./media/sonido.mp3" type="audio/mpeg">
+
+</audio>
       `
 }
 if((dia>=21 && mes==4) || (dia<=21 && mes==5)){
@@ -49,6 +61,9 @@ if((dia>=21 && mes==4) || (dia<=21 && mes==5)){
     <p>Dedicados - Agraciados - Compasivos</p> 
 </div>
       <button class="volver" onclick = "location.reload()">Cambiar fecha</button>
+      <audio controls autoplay>
+      <source src="./media/sonido.mp3" type="audio/mpeg">
+</audio>
       `
 }
 if((dia>=24 && mes==10) || (dia<=22 && mes==11)){
@@ -64,6 +79,10 @@ if((dia>=24 && mes==10) || (dia<=22 && mes==11)){
     <p>Pasionales - Valientes - Leales</p> 
 </div>
       <button class="volver" onclick = "location.reload()">Cambiar fecha</button>
+      <audio controls autoplay>
+      <source src="./media/sonido.mp3" type="audio/mpeg">
+
+</audio>
       `
 }
 if((dia>=22 && mes==5) || (dia<=21 && mes==6)){
@@ -79,6 +98,11 @@ if((dia>=22 && mes==5) || (dia<=21 && mes==6)){
         <p>Divertidos - Curiosos - Ambiciosos</p> 
     </div>
           <button class="volver" onclick = "location.reload()">Cambiar fecha</button>
+          <audio controls autoplay>
+
+          <source src="./media/sonido.mp3" type="audio/mpeg">
+
+</audio>
           `
 }
 if((dia>=23 && mes==11) || (dia<=21 && mes==12)){
@@ -94,6 +118,11 @@ if((dia>=23 && mes==11) || (dia<=21 && mes==12)){
         <p>Honestos - Visionarios - Aventureros</p> 
     </div>
           <button class="volver" onclick = "location.reload()">Cambiar fecha</button>
+          <audio controls autoplay>
+
+          <source src="./media/sonido.mp3" type="audio/mpeg">
+
+</audio>
           `
 }
 if((dia>=21 && mes==6) || (dia<=23 && mes==7)){
@@ -109,6 +138,11 @@ if((dia>=21 && mes==6) || (dia<=23 && mes==7)){
         <p>Pasionales - Creativos - Resilientes</p> 
     </div>
           <button class="volver" onclick = "location.reload()">Cambiar fecha</button>
+          <audio controls autoplay>
+
+          <source src="./media/sonido.mp3" type="audio/mpeg">
+
+</audio>
           `
 }
 if((dia>=22 && mes==12) || (dia<=20 && mes==1)){
@@ -124,6 +158,10 @@ if((dia>=22 && mes==12) || (dia<=20 && mes==1)){
         <p>Determinados - Leales - Almas puras</p> 
     </div>
           <button class="volver" onclick = "location.reload()">Cambiar fecha</button>
+          <audio controls autoplay>
+
+          <source src="./media/sonido.mp3" type="audio/mpeg">
+</audio>
           `
 }
 if((dia>=24 && mes==7) || (dia<=23 && mes==8)){
@@ -139,6 +177,9 @@ if((dia>=24 && mes==7) || (dia<=23 && mes==8)){
         <p>Lideres - Extrovertidos - Feroces</p> 
     </div>
           <button class="volver" onclick = "location.reload()">Cambiar fecha</button>
+          <audio controls autoplay>
+          <source src="./media/sonido.mp3" type="audio/mpeg">
+</audio>
           `
 }
 if((dia>=21 && mes==1) || (dia<=19 && mes==2)){
@@ -154,6 +195,9 @@ if((dia>=21 && mes==1) || (dia<=19 && mes==2)){
         <p>Independiente - Open mind - Unicos</p> 
     </div>
           <button class="volver" onclick = "location.reload()">Cambiar fecha</button>
+          <audio controls autoplay>
+          <source src="./media/sonido.mp3" type="audio/mpeg">
+</audio>
           `
 }
 if((dia>=24 && mes==8) || (dia<=23 && mes==9)){
@@ -169,6 +213,9 @@ if((dia>=24 && mes==8) || (dia<=23 && mes==9)){
         <p>Perfeccionistas - Bondadosos - Optimistas</p> 
     </div>
           <button class="volver" onclick = "location.reload()">Cambiar fecha</button>
+          <audio controls autoplay>
+          <source src="./media/sonido.mp3" type="audio/mpeg">
+</audio>
           `
 }
 if((dia>=20 && mes==2) || (dia<=20 && mes==3)){
@@ -184,6 +231,9 @@ if((dia>=20 && mes==2) || (dia<=20 && mes==3)){
         <p>Agraciados - Intuitivos - Compasivos</p> 
     </div>
           <button class="volver" onclick = "location.reload()">Cambiar fecha</button>
+          <audio controls autoplay>
+          <source src="./media/sonido.mp3" type="audio/mpeg">
+</audio>
           `
 }
   };
